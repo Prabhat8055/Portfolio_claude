@@ -21,7 +21,7 @@ export const roles = [
   "Problem Solver",
 ];
 
-export const about = { 
+export const about = {
   bio: [
     "I'm a developer who believes great software is an art form.I operate at the boundary where engineering precision meets creative vision.",
     "My work spans from performant backend systems to pixel-perfect interfaces — always with an obsession for the details that most people never notice, but everyone feels.",
@@ -71,51 +71,51 @@ export const techStack = [
 export const projects = [
   {
     id: 1,
-    title: "NeuralCanvas",
-    subtitle: "AI-Powered Creative Studio",
+    title: "3Js Portfolio",
+    subtitle: "Personal Portfolio to showcase skills",
     description:
-      "A real-time collaborative creative platform powered by diffusion models. Artists can generate, remix, and animate AI art with millisecond-latency streaming.",
+      "An Interative User friendly Portfolio of myself to showcase my 3d world knowledge and reat skills.",
     longDescription:
-      "Built on a custom WebSocket architecture with Redis pub/sub for real-time collaboration. The inference pipeline uses ONNX-optimized models deployed on A100 clusters, achieving sub-200ms generation latency at scale. Features include multi-user canvas, style transfer, animation sequences, and NFT minting.",
-    image: null,
+      "Built from 'ReactBits' website self start no AI react.js ,jsx used , tailwindCSS  .",
+    image: "/project1.png",
     color: "#6c63ff",
-    tags: ["React", "WebSockets", "Python", "ONNX", "Redis", "AWS"],
-    github: "#",
-    live: "#",
+    tags: ["React", "ReactBits", "TailwindCSS", "Vercel"],
+    github: "https://github.com/Prabhat8055/Portfolio_reactBits",
+    live: "https://portfolio-react-bits-so4n.vercel.app/",
     featured: true,
-    year: "2024",
+    year: "2025",
   },
   {
     id: 2,
-    title: "Synapse DB",
-    subtitle: "Graph Database Engine",
+    title: "CareerSync",
+    subtitle: "Authentication and Authrization application",
     description:
-      "A high-performance graph database written in Rust with a GraphQL query layer. Processes 1M+ traversals/sec on commodity hardware.",
+      "Application built using Java, Spring Boot, React, and MySQL. It features secure JWT authentication, role-based authorization,and complete CRUD operations for managing job applications efficiently.",
     longDescription:
-      "Implements a novel adjacency-list storage format with SIMD-optimized traversal. The query planner uses cost-based optimization with learned cardinality estimates. Ships with a visual query builder and real-time execution plan visualization.",
-    image: null,
+      "A full-stack Job Tracking and Management application built with secure Authentication and Role-Based Authorization. It enables users to manage job applications through complete CRUD operations, while providing a secure and scalable platform with JWT authentication, and role-based access control.",
+    image: "/project2.png",
     color: "#00d4ff",
-    tags: ["Rust", "GraphQL", "WASM", "C++", "SIMD"],
-    github: "#",
+    tags: ["SpringBoot", "React.js", "MySQL", "Java", "HibernateORM"],
+    github: "https://github.com/Prabhat8055/Job_Management_portal",
     live: "#",
     featured: true,
-    year: "2024",
+    year: "2026",
   },
   {
     id: 3,
-    title: "Orbit Design System",
-    subtitle: "Component Library & Design Tokens",
+    title: "Ticket management system",
+    subtitle: "User complain base system with raise ticket feature",
     description:
-      "A themeable, accessible component library with 80+ components, design tokens, and a live Figma integration for design-to-code workflows.",
+      "A Ticket Management System built with Java JSP pages ,Spring Boot, and MySQL. Users can create support tickets, admins assign them to staff members, and staff resolve issues while updating ticket statuses.",
     longDescription:
-      "Built with Radix UI primitives and a custom styling engine. The Figma plugin syncs design tokens bidirectionally, enabling designers to push changes directly to production CSS variables. Comprehensive a11y testing with axe-core integration.",
-    image: null,
+      "A full-stack Ticket Management System developed using Java, Spring Boot, React, and MySQL. The application enables users to raise support tickets for various issues, which are then reviewed by an administrator. The administrator can assign each ticket to the appropriate staff member based on the issue type. Staff members can update the ticket status, provide resolution details, and mark tickets as resolved.",
+    image: "/project3.png",
     color: "#43e97b",
-    tags: ["TypeScript", "React", "Radix UI", "Figma API", "Storybook"],
-    github: "#",
+    tags: ["Java", "JPS", "SpringBoot", "MySQL"],
+    github: "https://github.com/Prabhat8055/TicketManagementSystem_Springboot",
     live: "#",
     featured: false,
-    year: "2023",
+    year: "2026",
   },
   {
     id: 4,
